@@ -1,0 +1,89 @@
+.Shervin {
+  font-size: 1rem;
+  font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+}
+
+.Shervin .navbar {
+  font-weight: 700;
+  position: absolute;
+}
+
+.Shervin .navbar-brand {
+  font-size: 1.2rem;
+}
+
+.Shervin .footer {
+  position: absolute;
+  width: 100%;
+}
+
+.Shervin #top .carousel-inner {
+  max-height: 100vh !important;
+  max-width: 100%;
+}
+
+.Shervin #top .carousel-item:after {
+  content: "";
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.4);
+}
+
+.Shervin #top .carousel-caption {
+  top: 50%;
+}
+
+.Shervin .captionButton:hover {
+  background-color: rgba(0, 0, 0, 0.2);
+  color: white;
+}
+
+.Shervin .quoteblock {
+  width: 100%;
+  display: block;
+  font-size: 2rem;
+}
+
+.Shervin #top @-webkit-keyframes zoom {
+  from {
+    -webkit-transform: scale(1, 1);
+  }
+  to {
+    -webkit-transform: scale(1.5, 1.5);
+  }
+}
+
+.Shervin #top @keyframes zoom {
+  from {
+    transform: scale(1, 1);
+  }
+  to {
+    transform: scale(1.5, 1.5);
+  }
+}
+
+.Shervin #top .carousel-inner .carousel-item > img {
+  -webkit-animation: zoom 20s;
+  animation: zoom 20s;
+}
+
+.Shervin .topArrow {
+  font-size: 1.2rem;
+  font-weight: 700;
+}
+
+.Shervin .fa-arrow-up {
+  font-size: 3rem;
+}
+
+.Shervin .fa-arrow-up:hover {
+  color: white;
+  border-radius: 10px;
+}
+
+.Shervin #gallery .row:hover {
+  cursor: pointer;
+}

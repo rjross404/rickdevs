@@ -1,0 +1,99 @@
+.Home {
+  font-family: "Roboto", sans-serif;
+  color: rgba(0, 0, 0, 0.6);
+}
+
+.Home-header {
+  background-image: url("../imgs/markus-spiske-iar-afB0QQw-unsplash.jpg");
+  height: 40rem;
+  background-position: bottom;
+  margin-bottom: 5rem;
+}
+
+.Home-header-text {
+  color: white;
+  text-align: center;
+  padding-top: 6rem;
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000,
+    1px 1px 0 #000;
+}
+
+.Home-header-text p {
+  font-size: 1.4rem;
+  font-weight: 300;
+}
+
+.Home-header-text h1 {
+  line-height: 0.2;
+  font-size: 2.2rem;
+  letter-spacing: 10px;
+  font-weight: 800;
+}
+
+.Home-header img {
+  position: relative;
+  display: block;
+  margin: 10rem auto auto;
+  width: 300px;
+  border: 10px solid white;
+}
+
+.Home-header-buttons {
+  margin-top: -50px;
+}
+
+.Home-header button {
+  position: relative;
+  margin-right: 1rem;
+  background-color: white;
+  z-index: 10;
+  font-size: 1.5rem;
+  border-radius: 50%;
+  border: none;
+  box-shadow: 4px 4px 4px 4px rgba(0, 0, 0, 0.05),
+    2px 2px 2px 2px rgba(0, 0, 0, 0.1);
+}
+
+.Home-header a {
+  color: rgb(150, 150, 150);
+  outline: none;
+}
+
+.Home-header button:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+.Home-header a:hover {
+  color: rgb(150, 150, 150);
+}
+
+.Home h2 {
+  color: black;
+  font-size: 2.2rem;
+}
+
+.Home-sample-projects {
+  text-align: center;
+}
+
+.Home-sample-imgs {
+  border: 15px rgba(0, 0, 0, 0) solid;
+  border-radius: 40px;
+}
+
+.Home-sample-imgs:hover {
+  border: none;
+  border-radius: 25px;
+}
+
+.Home-contact h2 {
+  text-align: center;
+}
+
+.Home .Home-contact-input {
+  box-shadow: 0 0 2px 2px rgb(220, 220, 220), 0 0 4px 4px rgb(230, 230, 230);
+}
+
+.Home-contact-btn {
+  float: right;
+}

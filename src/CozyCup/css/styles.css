@@ -1,0 +1,102 @@
+.CozyCup {
+  font-family: "Georgia";
+  height: 100%;
+  background-color: rgb(255, 245, 235);
+  color: rgb(20, 10, 0);
+  overflow: auto;
+}
+
+.CozyCup #backdrop {
+  object-position: center;
+  height: 40rem;
+  object-fit: cover;
+  width: 100%;
+}
+
+.CozyCup .navbar {
+  font-size: 1.5rem;
+  padding: 0;
+  font-family: "Georgia";
+}
+
+.CozyCup .nav-link {
+  margin: 0 0.5rem;
+  font-weight: 400;
+}
+
+.CozyCup .navbar-brand {
+  padding: 0 2rem;
+  font-size: 1.5rem;
+  font-weight: 400;
+}
+
+.CozyCup i {
+  padding: 0 1rem;
+}
+
+.CozyCup #statement {
+  margin-top: 4rem;
+  margin-bottom: 4rem;
+}
+
+.CozyCup .item1 {
+  margin-bottom: 4rem;
+}
+
+.CozyCup #info {
+  margin-bottom: 8rem;
+}
+
+.CozyCup .title {
+  margin-top: 10rem;
+}
+
+.CozyCup .aboutimages {
+  border-radius: 10px;
+  width: 100%;
+  height: 90%;
+}
+
+.CozyCup .line {
+  line-height: 1.2rem;
+}
+
+.CozyCup .bigger {
+  font-size: 1.2rem;
+}
+
+.CozyCup .carousel-caption {
+  font-size: 1rem;
+  bottom: -30px;
+  background-color: rgb(25, 15, 5);
+  background-size: 100%;
+  border-radius: 35px;
+  padding-top: 0.5rem;
+}
+
+.CozyCup .menu {
+  width: 100%;
+  height: 100%;
+}
+
+.CozyCup .bg-dark {
+  background-color: rgb(25, 15, 5) !important;
+}
+
+.CozyCup .btn-primary {
+  background-color: rgb(25, 15, 5) !important;
+}
+
+.CozyCup .text-muted {
+  color: rgb(150, 100, 50) !important;
+}
+
+.CozyCup .footer {
+  position: relative;
+  width: 100%;
+  font-family: "Georgia";
+}
+
+.CozyCup .menu-image {
+  width: 100%;
+}
